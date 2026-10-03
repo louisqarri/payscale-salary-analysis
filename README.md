@@ -15,3 +15,31 @@ A Python project that scrapes and analyses college major salary data from PaySca
 - Which majors have the highest percentage of graduates who find their work meaningful?
 
 ## Project Structure
+payscale-salary-analysis/
+main.py # Selenium scraper
+analysis.py # Pandas analysis
+highest_salaries_by_major.csv # Raw scraped data
+salary_analysis.xlsx # Analysis output (4 sheets)
+requirements.txt # Dependencies
+.gitignore
+
+
+## Output
+
+The `salary_analysis.xlsx` file contains 4 sheets:
+- **Early Career Pay** → Top 5 and Bottom 5 majors by starting salary
+- **Mid-Career Pay** → Top 5 and Bottom 5 majors by mid-career salary
+- **Salary Growth** → Top 5 and Bottom 5 majors by salary increase over career
+- **High Meaning** → Top 5 and Bottom 5 majors by % of graduates who find work meaningful
+
+## Technologies Used
+
+- Python 3
+- Selenium → web scraping
+- Pandas → data analysis
+- openpyxl → Excel export
+
+## Data Source
+
+PayScale College Salary Report (2008) via Wayback Machine:
+https://web.archive.org/web/20180704193224/https://www.payscale.com/college-salary-report/majors-that-pay-you-back/bachelors
