@@ -15,14 +15,16 @@ A Python project that scrapes and analyses college major salary data from PaySca
 - Which majors have the highest percentage of graduates who find their work meaningful?
 
 ## Project Structure
-payscale-salary-analysis/
-    main.py                          # Selenium scraper — collects raw data
-    analysis.py                      # Pandas analysis — generates insights
-    highest_salaries_by_major.csv    # Raw scraped data
-    salary_analysis.xlsx             # Analysis output (4 sheets)
-    requirements.txt                 # Python dependencies
-    README.md                        # Project documentation
-    .gitignore                       # Files excluded from Git
+```
+📁 payscale-salary-analysis/
+├── main.py                       # Selenium scraper — collects raw data
+├── analysis.py                   # Pandas analysis — generates insights
+├── highest_salaries_by_major.csv # Raw scraped data
+├── salary_analysis.xlsx          # Analysis output (4 sheets)
+├── requirements.txt              # Python dependencies
+├── README.md                     # Project documentation
+└── .gitignore                    # Files excluded from Git
+```
 
 ## Output
 
