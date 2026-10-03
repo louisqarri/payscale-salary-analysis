@@ -16,13 +16,13 @@ A Python project that scrapes and analyses college major salary data from PaySca
 
 ## Project Structure
 payscale-salary-analysis/
-main.py # Selenium scraper
-analysis.py # Pandas analysis
-highest_salaries_by_major.csv # Raw scraped data
-salary_analysis.xlsx # Analysis output (4 sheets)
-requirements.txt # Dependencies
-.gitignore
-
+    main.py                          # Selenium scraper — collects raw data
+    analysis.py                      # Pandas analysis — generates insights
+    highest_salaries_by_major.csv    # Raw scraped data
+    salary_analysis.xlsx             # Analysis output (4 sheets)
+    requirements.txt                 # Python dependencies
+    README.md                        # Project documentation
+    .gitignore                       # Files excluded from Git
 
 ## Output
 
